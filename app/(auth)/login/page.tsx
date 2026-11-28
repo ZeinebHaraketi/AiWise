@@ -1,9 +1,6 @@
-import React from 'react'
 
-const page = () => {
-  return (
-    <div>page</div>
-  )
+import { LoginForm } from "@/features/authentication/login-form";
+
+export default function LoginPage() {
+  return <LoginForm />;
 }
-
-export default page
